@@ -1,0 +1,59 @@
+/* LAYOUT STYLES */
+
+section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row div
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* INPUT STYLES */
+
+form
+{
+    max-width: 500px;
+    width: 100%;
+}
+
+label
+{
+    margin-bottom: 3px;
+}
+
+input
+{
+    padding: 5px;
+}
+
+select
+{
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+button
+{
+    padding: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* RESPONSIVE SETTINGS */
+
+@media only screen and (min-width: 400px)
+{
+    .row
+    {
+        display: flex;
+        gap: 10px;
+    }
+}
+
