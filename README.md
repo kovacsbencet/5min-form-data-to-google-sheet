@@ -1,1 +1,1 @@
-# 5min-form-data-to-google-sheet
+# tutorial-submit-form-data-to-google-sheet
